@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body, html{
     font-family: 'Lato', sans-serif; 
     text-align: justify;
     height: 100%;
@@ -86,7 +86,7 @@ a:hover {
 }
 
 .box-main{
-    background-color: #909090;
+    background-image: linear-gradient(to bottom, #d4d3d3, #878787);
     padding: 45px;
     flex: 8;
 }
@@ -151,7 +151,25 @@ h3{
 }
 
 .contato img{
-    width: 50px;
+    width: 70px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #343434, #7e7e7e);
+    color: #fff;
+    padding: 5px;
+    display: flex;
+
+}
+
+.rodape {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    height: 40px;
+}
+
+.rodape p {
+    margin: 0 0 0 15px; /* Remove margem padrão para evitar espaço extra */
 }
 
 @media screen and (max-width: 1000px) {
